@@ -15,7 +15,7 @@ RERUN=0    # Set to 1 to skip network configuration and run ansible playbook onl
 WHOAMI=$(whoami)
 MAGMA_USER="ubuntu"
 MAGMA_VERSION="${MAGMA_VERSION:-v1.8}"
-GIT_URL="${GIT_URL:-https://github.com/Neloy262/magma.git}"
+GIT_URL="${GIT_URL:-https://github.com/magma/magma.git}"
 DEPLOY_PATH="/opt/magma/lte/gateway/deploy"
 
 echo "Checking if the script has been executed by root user"
